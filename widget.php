@@ -98,7 +98,7 @@ if(!class_exists('\Gnowland\WordPress_Jumpoff\Widget\Blank_Widget')){
 		 */
 		public function form( $instance ) {
 
-			$instance = wp_parse_args((array) $instance);
+			// Set Defaults
 			$instance = wp_parse_args(
 				(array) $instance,
 				array(
